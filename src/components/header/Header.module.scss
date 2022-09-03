@@ -7,20 +7,60 @@
     top: 41px;
 }
 .main-logo {
-    /* position: absolute; */
+    // position: absolute;
     width: 258px;
     height: 63px;
     left: 150px;
     top: 41px;
-
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+        .main-ellipse-1 {
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            left: 15px;
+            top: 10px;
+            z-index: 9;
+            background: #FFFFFF;
+            border-radius: 50%;
+        }
+
+        .main-ellipse-2 {
+            position: absolute;
+            z-index: 9;
+            width: 6px;
+            height: 6px;
+            left: 27px;
+            top: 23px;
+            border-radius: 50%;
+            background: #FFFFFF;
+        }
+        .main-rectangle {
+            position: absolute;
+            width: 40px;
+            height: 11px;
+            left: 40px;
+            top: 25px;
+            z-index: 9;
+            background: #091156;
+            border-radius: 50px;
+        }
+        .main-ellipse {
+            /* position: absolute; */
+            width: 63px;
+            height: 63px;
+            left: 150px;
+            top: 41px;
+            border-radius: 50%;
+            background: #FF64AE;
+        }
 }
 .main-heading {
     position: absolute;
     width: 161px;
     height: 34px;
     left: 100px;
-    top: -2px;
+    top: 10px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -30,45 +70,7 @@
     letter-spacing: 0.1em;
     color: #091156;
 }
-.main-ellipse-1 {
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    left: 15px;
-    top: 10px;
-    z-index: 9;
-    background: #FFFFFF;
-    border-radius: 50%;
-}
-.main-ellipse-2 {
-    position: absolute;
-    z-index: 9;
-    width: 6px;
-    height: 6px;
-    left: 27px;
-    top: 23px;
-    border-radius: 50%;
-    background: #FFFFFF;
-}
-.main-rectangle {
-    position: absolute;
-    width: 40px;
-    height: 11px;
-    left: 40px;
-    top: 25px;
-    z-index: 9;
-    background: #091156;
-    border-radius: 50px;
-}
-.main-ellipse {
-    /* position: absolute; */
-    width: 63px;
-    height: 63px;
-    left: 150px;
-    top: 41px;
-    border-radius: 50%;
-    background: #FF64AE;
-}
+
 .main-menu {
     position: absolute;
     width: 481px;
@@ -106,7 +108,7 @@
 }
 .header-active svg {
     position: absolute;
-    left: 90px;
+    left: 50px;
     top: 10px;
 }
 .contact_btn {

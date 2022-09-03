@@ -25,7 +25,6 @@
 .main-heading-content {
     position: absolute;
     left: 40px;
-
 }
 .main-heading h1 {
     position: absolute;
@@ -58,15 +57,20 @@
     color: #091156;
 }
 
+.slide-title {
+    position: absolute;
+    width: 200px;
+    height: 58.36px;
+    left: 234px;
+    top: 526px;
+}
 .btn-content {
     display: flex;
     position: absolute;
     width: 200px;
     height: 58.36px;
-    left: 189px;
-    top: 526px;
-    background: #FF64AE;
-    box-shadow: 0px 17px 22px #FFEDF6;
+    background: #ff64ae;
+    box-shadow: 0px 17px 22px #ffedf6;
     border-radius: 50px;
     justify-content: center;
     border: none;
@@ -86,5 +90,46 @@
     text-align: center;
     letter-spacing: 0.1em;
 
-    color: #FFFFFF;
+    color: #ffffff;
+}
+.slide-btn {
+    position: absolute;
+    width: 71px;
+    height: 8.15px;
+    left: 685px;
+    top: 805px;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.slideLeft {
+    position: absolute;
+    width: 14.82px;
+    height: 3.09px;
+    left: -25px;
+    top: 2px;
+    background: #eeeeee;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.slideMid {
+    position: absolute;
+    width: 25.31px;
+    height: 8.15px;
+
+    background: #414880;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.slideRight {
+    position: absolute;
+    width: 14.82px;
+    height: 3.09px;
+    left: 35px;
+    top: 2px;
+
+    background: #eeeeee;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }

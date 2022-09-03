@@ -1,10 +1,12 @@
-// import logo from './logo.svg';
-import './App.css';
-import Header from './header/Header';
-import Slide from './slide/main-slide';
+import classNames from 'classnames/bind';
+import styles from './App.module.scss';
+import Header from '../src/components/header/Header';
+import Slide from '../src/components/slide/mainSlide';
+
+const cx  = classNames.bind(styles)
 function App() {
   return (
-    <div className="main-container">
+  <div className={cx('main-container')}>
       <Header />
       <Slide />
     </div>
